@@ -1,3 +1,7 @@
+.container {
+  display: flex; /* or inline-flex */
+}
+
 h1 {
   margin: 0;
 }
@@ -6,6 +10,11 @@ h1 {
   font-family: Verdana;
 }
 
+.main-content {
+  background: #121213;
+  padding: 0 60px;
+  color: rgb(89, 211, 180);
+}
 .section-heading {
   /* Add your own font here */
 }
@@ -23,28 +32,30 @@ h1 {
 }
 
 .page__header {
-  background-color: aqua;
+  background-color: #121213;;
 
 }
 .page__content {
-  background-color: beige;
+  background-color: #121213;
 
 }
 
 .left-content {
-  background-color: burlywood;
+  background-color: #121213;
 
 }
 
 .right-content {
-  background-color: burlywood;
+  background-color: #121213;
 }
 
-.main-content {
+.main-content { 
+  background-color: #121213;
 
 }
 
 .main-content__section {
-  background-color: cornsilk;
+  background-color: #121213
+  ;
 
 }
